@@ -1,0 +1,9 @@
+# Encrypt everything by default
+* filter=git-crypt diff=git-crypt
+
+# Leave these visible so your repo doesn't look like pure noise
+README.md !filter !diff
+LICENSE   !filter !diff
+.gitignore !filter !diff
+.gitattributes !filter !diff
+docs/**   !filter !diff
